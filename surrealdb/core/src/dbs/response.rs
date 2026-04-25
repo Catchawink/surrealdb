@@ -6,7 +6,7 @@ use serde::{Deserialize, Serialize};
 use surrealdb_types::{
 	Error as TypesError, ErrorDetails, Kind, SerializationError, SurrealValue, Value, kind, object,
 };
-use web_time::Instant;
+use instant::Instant;
 
 use crate::expr::TopLevelExpr;
 
