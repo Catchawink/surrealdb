@@ -2,7 +2,8 @@ use std::cell::Cell;
 use std::fmt;
 use std::pin::Pin;
 use std::task::{Context, Poll};
-use std::time::{Duration, Instant};
+use std::time::Duration;
+use web_time::Instant;
 
 use axum::extract::MatchedPath;
 use futures::Future;

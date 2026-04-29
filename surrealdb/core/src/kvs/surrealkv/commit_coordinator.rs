@@ -1,7 +1,8 @@
 use std::sync::Arc;
 use std::sync::atomic::{AtomicBool, Ordering};
 use std::thread;
-use std::time::{Duration, Instant};
+use std::time::Duration;
+use web_time::Instant;
 
 use parking_lot::{Condvar, Mutex};
 use surrealkv::Tree;
