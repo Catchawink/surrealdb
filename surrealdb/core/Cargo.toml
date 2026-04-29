@@ -161,7 +161,6 @@ web-time.workspace = true
 ulid = { workspace = true, features = ["serde"] }
 unicase.workspace = true
 url.workspace = true
-instant.workspace = true
 
 # Other optional crates
 arbitrary = { workspace = true, features = ["derive"], optional = true }
