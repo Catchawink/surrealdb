@@ -128,11 +128,7 @@ hex.workspace = true
 humantime.workspace = true
 ipnet.workspace = true
 md-5.workspace = true
-ndarray.workspace = true
-ndarray-stats.workspace = true
-num_cpus.workspace = true
 num-traits.workspace = true
-object_store.workspace = true
 parking_lot.workspace = true
 path-clean.workspace = true
 pbkdf2 = { workspace = true, features = ["simple"] }
@@ -141,7 +137,6 @@ pin-project-lite.workspace = true
 quick_cache.workspace = true
 radix_trie = { workspace = true, features = ["serde"] }
 rand.workspace = true
-rayon.workspace = true
 regex.workspace = true
 roaring = { workspace = true, features = ["serde"] }
 rust_decimal = { workspace = true, features = ["maths", "serde-str"] }
@@ -154,7 +149,6 @@ sha1.workspace = true
 sha2.workspace = true
 strsim.workspace = true
 subtle.workspace = true
-sysinfo.workspace = true
 thiserror.workspace = true
 tracing.workspace = true
 web-time.workspace = true
@@ -210,6 +204,12 @@ tokio-tungstenite = { workspace = true, optional = true }
 tokio-util.workspace = true
 uuid = { workspace = true, features = ["serde", "v4", "v7"] }
 surrealism-runtime = { workspace = true, optional = true }
+ndarray.workspace = true
+ndarray-stats.workspace = true
+num_cpus.workspace = true
+object_store.workspace = true
+rayon.workspace = true
+sysinfo.workspace = true
 
 # OS-SPECIFIC ALLOCATOR DEPENDENCIES
 [target.'cfg(all(any(target_arch = "x86_64", target_arch = "x86"), any(target_os = "linux", target_os = "macos"), not(target_env = "msvc")))'.dependencies]
